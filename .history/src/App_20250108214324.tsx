@@ -232,10 +232,7 @@ function App() {
       duration: 0.3,
       opacity: 0,
       onComplete: () => {
-        const counterElement = document.querySelector(".counter");
-        if (counterElement) {
-          counterElement.classList.add("disabled");
-        }
+        document.querySelector(".counter").classList.add("disabled");
       },
     });
     gsap.to(".bar1", {
