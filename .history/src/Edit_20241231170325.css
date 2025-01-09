@@ -1,0 +1,11 @@
+button {
+    position: "absolute",
+    top: "20px",
+    left: "20px",
+    padding: "10px 20px",
+    backgroundColor: "#007BFF",
+    color: "white",
+    border: "none",
+    borderRadius: "5px",
+    cursor: "pointer",
+}

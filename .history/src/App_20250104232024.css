@@ -1,0 +1,28 @@
+Canvas {
+  position: relative;
+  height: 100vh !important;
+  z-index: 1;
+}
+
+.myButton {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.stats-bar {
+  position: absolute; /* Fixes the stats bar to the canvas area */
+  top: 10px; /* Adds a little space from the top */
+  right: 10px; /* Positions it on the right with spacing */
+  height: auto; /* Automatically adjust the height */
+  width: auto; /* Automatically adjust the width */
+  z-index: 9; /* Keep it above the canvas but below other UI elements if needed */
+  pointer-events: none; /* Ensure it doesn't interfere with interactions */
+}

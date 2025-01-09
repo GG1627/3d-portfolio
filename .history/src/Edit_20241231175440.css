@@ -1,0 +1,28 @@
+.table {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.table > canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.table > button {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 2; /* Ensure the button is above the canvas */
+}

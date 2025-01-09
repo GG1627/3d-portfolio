@@ -1,0 +1,8 @@
+.clockScreen iframe {
+  position: absolute;
+  width: 315px;
+  height: 145px;
+  border: none;
+  border-radius: 20px;
+  object-fit: cover;
+}

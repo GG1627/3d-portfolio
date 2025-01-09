@@ -1,0 +1,6 @@
+/* Ensure the canvas takes the full size of the viewport */
+canvas {
+  display: block; /* Remove extra spacing around canvas */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+}

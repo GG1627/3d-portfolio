@@ -1,0 +1,102 @@
+Canvas {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+  /* cursor: pointer; */
+}
+
+.counter {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  z-index: 8;
+  color: rgb(0, 0, 0);
+  font-size: 15vw;
+}
+
+.overlay1 {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 7;
+  display: flex;
+  pointer-events: none;
+}
+
+.bar1 {
+  width: 10vw;
+  height: 100vh;
+  background-color: rgb(75, 0, 0);
+  pointer-events: none;
+  z-index: 7;
+  opacity: 1;
+}
+
+.info {
+  position: fixed; /* Fix the container's position */
+  top: 60px; /* Space from the top */
+  left: 10px; /* Space from the right */
+  display: flex; /* Align child boxes horizontally */
+  flex-direction: column; /* Stack the boxes vertically */
+  align-items: flex-start; /* Align boxes to the left within the container */
+  gap: 10px; /* Add vertical spacing between the boxes */
+  z-index: 6; /* Ensure it’s visible above other elements */
+}
+
+.name {
+  width: 120px; /* Set custom width for the name box */
+  padding: 4px; /* Add internal padding */
+  background-color: white; /* Background color */
+  text-align: left; /* Center text horizontally */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 0px; /* Round the corners */
+  font-size: 0.6rem; /* Text size */
+  padding-left: 20px;
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.major {
+  width: 185px; /* Set custom width for the major box */
+  padding: 4px; /* Add internal padding */
+  background-color: white; /* Background color */
+  text-align: left; /* Center text horizontally */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 0px; /* Round the corners */
+  font-size: 0.6rem; /* Text size */
+  padding-left: 20px;
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.name > h1,
+.major > h1 {
+  margin: 0; /* Remove default h1 margin */
+}
+
+.controls {
+  position: fixed; /* Fix the container's position */
+  top: 10px; /* Space from the top */
+  right: 10px; /* Space from the right */
+  display: flex; /* Align child boxes horizontally */
+  flex-direction: column; /* Stack the boxes vertically */
+  align-items: flex-start; /* Align boxes to the left within the container */
+  gap: 10px; /* Add vertical spacing between the boxes */
+  z-index: 6; /* Ensure it’s visible above other elements */
+}
+
+.myButton {
+  width: 110px; /* Set custom width for the major box */
+  padding: 4px; /* Add internal padding */
+  background-color: white; /* Background color */
+  text-align: left; /* Center text horizontally */
+  font-size: 1.1rem; /* Text size */
+  padding-left: 20px;
+  font-family: "Roboto", serif;
+  font-weight: 800;
+  font-style: normal;
+  cursor: pointer;
+  border: none;
+}

@@ -1,0 +1,12 @@
+.monitorScreen iframe {
+  position: absolute;
+  width: 2080px;
+  height: 920px;
+  border: none;
+  border-radius: 5px;
+  object-fit: cover;
+  z-index: -20;
+  opacity: 0; /* Hide the iframe initially */
+  visibility: hidden; /* Make sure it's not visible */
+  transition: opacity 0.5s ease; /* Smooth transition when the iframe becomes visible */
+}

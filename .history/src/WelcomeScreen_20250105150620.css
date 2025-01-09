@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(15, 33, 84);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav div {
+  display: flex;
+  padding: 1rem;
+  gap: 10em;
+}
+
+nav div a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Neue Montreal";
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.header .h1 {
+  position: relative;
+  font-family: "Carpenter";
+  font-size: 32vw;
+  color: #1a1a1a;
+  line-height: 1.125;
+}

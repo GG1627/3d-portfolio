@@ -1,0 +1,27 @@
+Canvas {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+  /* cursor: pointer; */
+}
+
+.myButton {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.blah {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  color: antiquewhite;
+}

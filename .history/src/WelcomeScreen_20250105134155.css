@@ -1,0 +1,16 @@
+.welcomeScreen-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.welcomeScreen-container > h1 {
+  font-family: Arial, sans-serif;
+
+  position: absolute;
+  color: white;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 45%;
+}

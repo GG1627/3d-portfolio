@@ -1,0 +1,27 @@
+Canvas {
+  position: relative;
+  height: 100vh !important;
+  z-index: 20;
+}
+
+.myButton {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.stats-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px !important;
+  width: 50px !important;
+  z-index: 11;
+}

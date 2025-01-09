@@ -1,0 +1,12 @@
+.clockScreen iframe {
+  position: absolute;
+  width: 315px;
+  height: 145px;
+  border: none;
+  border-radius: 20px;
+  object-fit: cover;
+
+  transform: scale(1.5); /* Increase the value to make the content larger */
+  transform-origin: center; /* Ensures the scaling happens from the center */
+  overflow: hidden; /* Prevents overflow of the iframe content */
+}

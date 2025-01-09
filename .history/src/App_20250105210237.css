@@ -1,0 +1,67 @@
+Canvas {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+  /* cursor: pointer; */
+}
+
+.myButton {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.counter {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  z-index: 8;
+  color: rgb(0, 0, 0);
+  font-size: 15vw;
+}
+
+.overlay1 {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 7;
+  display: flex;
+  pointer-events: none;
+}
+
+.bar1 {
+  width: 10vw;
+  height: 100vh;
+  background-color: rgb(75, 0, 0);
+  pointer-events: none;
+  z-index: 7;
+  opacity: 1;
+}
+
+.info {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  z-index: 6;
+}
+
+.name {
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+.name > h1 {
+  position: relative;
+  top: -30%;
+  font-size: 1rem;
+}

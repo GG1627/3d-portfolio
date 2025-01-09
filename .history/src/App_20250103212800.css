@@ -1,0 +1,16 @@
+canvas {
+  height: 100vh !important;
+  z-index: 1;
+}
+
+.myButton {
+  position: relative;
+  top: 50%;
+  left: 0;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 2; /* Ensure the button is above the canvas */
+}

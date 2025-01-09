@@ -1,0 +1,8 @@
+.monitorScreen iframe {
+  position: absolute;
+  width: 1385px;
+  height: 1015px;
+  border: none;
+  border-radius: 5px;
+  object-fit: cover;
+}
