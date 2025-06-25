@@ -1,50 +1,136 @@
-# React + TypeScript + Vite
+# 🚀 Gael Garcia - 3D Interactive Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my immersive 3D portfolio experience! This project combines cutting-edge 3D web technologies with traditional portfolio presentation to create a unique, interactive showcase of my work and interests.
 
-Currently, two official plugins are available:
+## ✨ What You'll Experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Step into my virtual workspace - a meticulously crafted 3D environment that brings my portfolio to life. Navigate through an interactive office space featuring:
 
-## Expanding the ESLint configuration
+- **🎮 Interactive 3D Environment**: Explore a fully rendered workspace with realistic lighting and shadows
+- **💻 Embedded 2D Portfolio**: My traditional portfolio seamlessly integrated into a 3D monitor
+- **🎨 Personal Collection**: Showcase of my interests including sneakers, cars, tech gadgets, and collectibles
+- **🌙 Dynamic Theming**: Toggle between dark and light modes for different viewing experiences
+- **🎵 Ambient Audio**: Immersive sound design to enhance the experience
+- **📱 Responsive Controls**: Intuitive camera controls and interactive elements
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠️ Tech Stack
 
-- Configure the top-level `parserOptions` property like this:
+- **Frontend**: React 18 + TypeScript
+- **3D Graphics**: Three.js + React Three Fiber
+- **3D Models**: Custom GLB models with realistic textures
+- **Animations**: GSAP for smooth transitions and effects
+- **Styling**: CSS3 with modern design principles
+- **Build Tool**: Vite for lightning-fast development
+- **Deployment**: Optimized for web deployment
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🎯 Key Features
+
+### Interactive 3D Workspace
+
+- **Camera Controls**: Smooth orbital navigation with constrained viewing angles
+- **Zoom Functionality**: Multiple zoom levels for detailed exploration
+- **Hover Interactions**: Dynamic camera movements triggered by user interaction
+- **Realistic Lighting**: Directional and ambient lighting with shadow mapping
+
+### Personal Collection Showcase
+
+- **Sneaker Collection**: Air Force 1s, Jordan's, Yeezys, Dunks, and Travis Scott collaborations
+- **Automotive**: Mustang and Shelby GT500 models
+- **Tech Gadgets**: MacBook, iPhone, mechanical keyboard, gaming mouse, and Flipper Zero
+- **Collectibles**: KAWS figures, Rubik's Cube, Liverpool FC memorabilia
+- **Lifestyle Items**: Coffee, plants, office furniture, and decorative elements
+
+### User Experience
+
+- **Loading Animation**: Engaging counter and progress bars
+- **Theme Toggle**: Seamless dark/light mode switching
+- **Audio Controls**: Background music with play/pause functionality
+- **Responsive Design**: Optimized for various screen sizes and devices
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/yourusername/3d-portfolio.git
+   cd 3d-portfolio
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to experience the 3D portfolio
+
+### Building for Production
+
+```bash
+npm run build
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🎮 How to Navigate
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Mouse/Trackpad**: Click and drag to rotate the camera around the scene
+- **Zoom Button**: Click to cycle through different viewing distances
+- **Theme Toggle**: Switch between dark and light modes
+- **Audio Control**: Play/pause background music
+- **Monitor Interaction**: Hover over the monitor to zoom in on the embedded portfolio
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+## 📁 Project Structure
+
 ```
+3d-portfolio/
+├── public/                 # Static assets and 3D models
+│   ├── *.glb              # 3D model files
+│   └── sound.mp3          # Audio assets
+├── src/
+│   ├── components/        # 3D scene components
+│   │   ├── Monitor.tsx    # Main display with embedded portfolio
+│   │   ├── Desk.tsx       # Workspace furniture
+│   │   ├── *.tsx          # Individual 3D object components
+│   │   └── ...
+│   ├── App.tsx            # Main application component
+│   ├── App.css            # Styling and animations
+│   └── main.tsx           # Application entry point
+└── package.json           # Dependencies and scripts
+```
+
+## 🎨 Design Philosophy
+
+This portfolio represents the intersection of technology and creativity. By combining 3D web technologies with traditional portfolio presentation, I've created an experience that:
+
+- **Showcases Technical Skills**: Demonstrates proficiency in modern web technologies
+- **Reflects Personal Style**: Features items that represent my interests and personality
+- **Engages Visitors**: Creates a memorable, interactive experience
+- **Maintains Functionality**: Ensures the portfolio content remains accessible and professional
+
+## 🔗 Connect With Me
+
+- **Portfolio**: [2D Portfolio](https://3d-portfolio-neon-six.vercel.app/)
+- **LinkedIn**: [Gael Garcia](https://www.linkedin.com/in/gael-garcia1627/)
+- **GitHub**: [GG1627](https://github.com/GG1627)
+- **Email**: [gael.garcia@ufl.edu](mailto:gael.garcia@ufl.edu)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+_Built with ❤️ using React, Three.js, and a passion for creating immersive digital experiences._
